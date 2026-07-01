@@ -10,7 +10,7 @@ print("Original size:", len(df))
 X = df[['opcode', 'a_type', 'b_type', 'predicted_gain']]
 
 # Number of clusters (min 50, dont keep too high it wont reduce)
-k = 135
+k = 128
 
 kmeans = KMeans(n_clusters=k, random_state=42)
 df['cluster'] = kmeans.fit_predict(X)

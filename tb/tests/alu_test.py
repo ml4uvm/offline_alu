@@ -15,7 +15,7 @@ class ALUTest(uvm_test):
         # =====================================================
         # BASELINE MODE (random)
         # =====================================================
-        #seq = ALUSequence("seq", num_tests=300, use_ml=False)
+        #seq = ALUSequence("seq", num_tests=128, use_ml=False)
 
         # =====================================================
         # ML MODE (clustered testcases)
